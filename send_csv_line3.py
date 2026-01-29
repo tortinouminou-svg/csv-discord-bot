@@ -19,4 +19,4 @@ message = "📊 **Ligne 3 du CSV**\n"
 for h, v in zip(headers, line3):
     message += f"**{h}** : {v}\n"
 
-requests.post(DISCORD_WEBHOOK, json={"content": message})
+requests.post(DISCORD_WEBHOOK, json={"content": line3})
