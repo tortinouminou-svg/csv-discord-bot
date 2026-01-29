@@ -3,7 +3,7 @@ import csv
 import io
 import os
 
-CSV_URL = "https://monde8.empireimmo.com/api/buildings_batiments_perso.csv"
+CSV_URL = "https://monde8.empireimmo.com/api/materials_materiaux.csv"
 DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 response = requests.get(CSV_URL)
